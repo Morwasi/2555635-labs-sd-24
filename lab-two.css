@@ -1,1 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  p{
+    font-size:x-large;
+  }
+  header {
+    background-color: black;
+    color: white;
+    display: flex; /* Align items in a row */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Distribute items evenly */
+    padding: 20px; /* Add padding for spacing */
+  }
 
+  
+  .navbar ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for list items */
+    align-items: center; /* Vertically center items */
+  }
+  
+  .navbar ul li {
+    margin-left: 20px; /* Add spacing between list items */
+    justify-content: right;
+  }
+  
+
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    text-align: center; /* Center the text inside the links */
+  }
+  
+  img {
+    width: 600px;
+    height: 400px;
+  }
+  
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 50px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+#logo {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  #logo_p {
+    position:relative;
+    /*top: 0; */ 
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 2; 
+  } 
+#test{
+  margin-top: 10px;
+}
+p{
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Adjust to your desired spacing */
+  border: 1px solid rgb(207, 203, 203); /* Add a border around the container */
+  
+}
+
+.item {
+  flex: 0 0 calc(50% - 1px); /* Adjust width and ensure items don't grow */
+  text-align: center;
+  border: 1px solid #dcd4d4; /* border style */
+  padding: 10px; /* add padding */
+}
+
+.item + .item {
+  border-left: none; /* Remove left border from all items except the first one */
+}
+
+.item p {
+  margin: 0;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+#foot{
+  font-size: small;
+}
+footer {
+  margin-top: 100px; /* Adjust the value as needed */
+}
+header{
+  margin-bottom: 20px;
+}
+#service{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  
+}
